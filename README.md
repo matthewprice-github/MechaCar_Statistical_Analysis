@@ -34,3 +34,15 @@ We can also perform one sample T-Tests for the overall dataset along with sepera
 
 [Lot 3 Results]()
 * P-value = .04168, we hit the threshold required to reject the null hypothesis. Lot 3's mean PSI is astitically different than the population mean. 
+
+
+## Study Design: MechaCar vs. Competition 
+In order to better compare how MechaCar performs against the competition, we can create a statistical study that compares average maintenance cost of MechaCars vs. competitors. In order to do this, we would need a dataset that outlines the lifetime maintenance costs of cars (with each observation being 1 car) for MechaCar vehicles on the road, along with a similar dataset for a competitor (or alternatively, an amalgamation of competitors which can essentially act as a "population" dataset)
+
+A simple analysis with these data sets would be a comparison of means using a two sided T-test, with the competitor's average maintence cost per car as the control, and the MechaCar's average maintence cost as the test sample. In this case, the null hypothesis would be that the average maintence cost of MechaCar is not statistically different than the average maintence cost of the competitor, with the alternative hypothsis being that MechaCar's average maintence cost is statistically different from the competitor (either better or worse). With a two sided T-test we will be able to determine directionality if statistically significant. 
+
+Is proven MechaCar's average maintenance cost is proven to be statistically signficiant (and directionally better) than a competitors, that would be valueable information for a consumer. 
+
+Another possible consideration would be (data willing) to create subgroups of the MechaCar and competitor data sets but model of car, or possibly by a range of model years in order to get more apples to apples comparisons. So instead of all MechaCar cars vs. all Competitor cars, it would be MechaCar trucks vs. Competitor trucks. 
+
+
