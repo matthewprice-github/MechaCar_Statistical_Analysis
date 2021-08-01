@@ -20,7 +20,7 @@ Using the Mecha Car suspension coil data from the Suspension_Coil.csv, we can ca
 * Since the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coilds must not exceed 100 PSI, Lot3 is well outside that specification with a variance of 170.286 for their suspension coils. Lots 1 and 2 are well within those specifications with variances of 0.98 and 7.46. OVerall, the suspension coil PSI variance equates to 62.29, which is also within the guidelines. 
 * * Note: the variance data point is a squared unit, the standard of deviation in PSI for suspension coils are the square roots of their respective variance values. 
 
-##T-Test on Suspension Coils
+## T-Test on Suspension Coils
 We can also perform one sample T-Tests for the overall dataset along with seperate tests for each lot in order to determine if their PSI means are statistically differentiated from the population mean of 1,500 PSI. 
 
 [Overall]()
