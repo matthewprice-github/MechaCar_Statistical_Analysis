@@ -30,7 +30,7 @@ We can also perform one sample T-Tests for the overall dataset along with sepera
 * P-value = 1, we again fail to reject the null hypothesis. With such a high P-value, it is an indication that Lot 1 is very closely aligned with the population mean. 
 
 [Lot 2 Results]()
-* P-value = .6072, we again fail to reject the null hypothesis. Lot 2's mean is not stiatically idfferent from the population mean. 
+* P-value = .6072, we again fail to reject the null hypothesis. Lot 2's mean is not stiatically different from the population mean. 
 
 [Lot 3 Results]()
 * P-value = .04168, we hit the threshold required to reject the null hypothesis. Lot 3's mean PSI is astitically different than the population mean. 
